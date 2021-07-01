@@ -17,6 +17,11 @@ app.use(bodyParser.urlencoded({extended:false})) //apply this to all app request
 
 app.use(bodyParser.json());
 
+const routes = require('./routes')
+
+//routes
+app.use('/quote', routes.quote) 
+app.use('/user', routes.user)
 
 // run server
 app.listen(3000, () => {
