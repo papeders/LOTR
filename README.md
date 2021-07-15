@@ -6,7 +6,7 @@ The One Quote App is a fun application created by Pachel Pederson in July 2021 w
 Using The One API our application allows users to learn  about over 933 Lord of the Rings and Hobbit Franchises.
 
 ## Planning
-[Models](https://res.cloudinary.com/dqutmt6jn/image/upload/v1626387372/LOTRModels_gieqvj.png)
+[Models](https://res.cloudinary.com/dqutmt6jn/image/upload/v1626387372/LOTRModels_gieqvj.png) <br>
 [Routes](https://res.cloudinary.com/dqutmt6jn/image/upload/v1626387418/LOTRRoutes_e3kd86.png)
 
 ## Back-end Dependencies:
