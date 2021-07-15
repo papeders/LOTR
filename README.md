@@ -19,47 +19,23 @@ Using The One API our application allows users to learn  about over 933 Lord of 
 - ReactPlayer
     
 
-## Technology Used
+##  Features:
 
-    - React / ReactRouter
-    - Java Script / CSS
-    - Axios
-    - TheCocktailDB API
+Full CRUD for users. <br>
+Models and routes for characters and quotes. <br>
+Accessible through API calls.
 
-## Screenshots
+## Planned Features:
+Back-end authorization with sessions management.
 
-Profile Page
-<img src="https://raw.githubusercontent.com/davidglic/project3-frontend/main/screenshots/screen-profile.png" style="width: 800px;"/>
+## Install Instructions:
+Install dependencies:
+Create models, controllers and routes.
+Seed: Users.
 
-Search Page
-<img src="https://raw.githubusercontent.com/davidglic/project3-frontend/main/screenshots/screen-search.png" style="width: 800px;"/>
-
-Drink Page
-<img src="https://raw.githubusercontent.com/davidglic/project3-frontend/main/screenshots/screen-drink.png" style="width: 800px;"/>
-
-## Components
-
-    - Drink: displays large cocktail image and recipe.
-    - DrinkStream: displays search results, pulled from App state, as a flex list small images and drink names.
-    - Header: displays navigation and login form.
-    - Landing: displays front landing page with a sample search result.
-    - Profile: displays favorite list and user profile data with edit/delete options.
-    - Search: displays search dialogue with multiple options and a DrinkStream with results.
-    - Signup: displays sign up form.
-
-## Install
-
-To install:
-Download all components and run npm install. 
-Download and install backend API: <a href="https://github.com/davidglic/project3-backend">here</a>.
-Create a 'resources' folder in the ./src directory, and create a keys.js file with the following code:
-```
-//external API key here. 
-//this folder is in .gitignore for security.
-
-const apiKey = 1;
-
-export default apiKey
+## Repositories:
+[BE Repository](https://github.com/papeders/LOTR-backend) <br>
+[FE Repository](https://github.com/papeders/LOTR-frontend2)
 ```
 
 
