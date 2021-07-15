@@ -10,8 +10,8 @@ module.exports = (sequelize, DataTypes) => {
   };
   Quote.init({
     userID: DataTypes.INTEGER,
-    quoteID: DataTypes.INTEGER,
-    char: DataTypes.STRING
+    quoteID: DataTypes.STRING,
+    character: DataTypes.STRING
   }, {
     sequelize,
     modelName: 'Quote',

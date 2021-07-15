@@ -59,8 +59,7 @@ const deleteQuote = (req, res) => {
         })
 }
 
-module.exports = {
-  
+module.exports = {  
     getQuotes,
     addQuote,
     deleteQuote

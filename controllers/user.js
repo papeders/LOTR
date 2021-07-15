@@ -18,7 +18,7 @@ const createUser = (req, res) => {
                 img: req.body.img
             }
 
-            User.create(thisUser).then(newUser =>{
+            User.create(thisUser).then(newUser => {
                 res.status(constants.SUCCESS).json(newUser)
             })
         } else {
@@ -46,7 +46,7 @@ const loginUser = (req, res) => {
             req.body.password === resp.password ?
                 res.status(constants.SUCCESS).json(resp)
                 :
-                res.status(constants.FORBIDDEN).send('Incorrect Password -- try again Mr.Baggins!')
+                res.status(constants.FORBIDDEN).send(`Password Incorrect.`)
         } else {
             res.status(constants.BAD_REQUEST).send('Error: Username not found.')
         }

@@ -12,9 +12,9 @@ module.exports = {
         type: Sequelize.INTEGER
       },
       quoteID: {
-        type: Sequelize.INTEGER
+        type: Sequelize.STRING
       },
-      char: {
+      character: {
         type: Sequelize.STRING
       },
       createdAt: {

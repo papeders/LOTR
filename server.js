@@ -24,6 +24,6 @@ app.use('/quote', routes.quote)
 app.use('/user', routes.user)
 
 // run server
-app.listen(3000, () => {
+app.listen(3001, () => {
     console.log("I am listening!")
 })
