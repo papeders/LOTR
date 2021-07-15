@@ -6,8 +6,8 @@ The One Quote App is a fun application created by Pachel Pederson in July 2021 w
 Using The One API our application allows users to learn  about over 933 Lord of the Rings and Hobbit Franchises.
 
 ## Planning
-[Models]
-[Routes]
+[Models](https://res.cloudinary.com/dqutmt6jn/image/upload/v1626387372/LOTRModels_gieqvj.png)
+[Routes](https://res.cloudinary.com/dqutmt6jn/image/upload/v1626387418/LOTRRoutes_e3kd86.png)
 
 ## Back-end Dependencies:
 - Sequelize
@@ -29,8 +29,8 @@ Accessible through API calls.
 Back-end authorization with sessions management.
 
 ## Install Instructions:
-Install dependencies:
-Create models, controllers and routes.
+Install dependencies:<br>
+Create models, controllers and routes. <br>
 Seed: Users.
 
 ## Repositories:
