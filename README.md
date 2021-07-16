@@ -9,7 +9,7 @@ Using The One API our application allows users to learn about over 933 character
 [Models](https://res.cloudinary.com/dqutmt6jn/image/upload/v1626387372/LOTRModels_gieqvj.png) <br>
 [Routes](https://res.cloudinary.com/dqutmt6jn/image/upload/v1626387418/LOTRRoutes_e3kd86.png)
 
-<img src="https://res.cloudinary.com/dqutmt6jn/image/upload/v1626445470/Screenshot_2021-07-16_092319_jkqhaa.png" height="800/>
+<img src="https://res.cloudinary.com/dqutmt6jn/image/upload/v1626445470/Screenshot_2021-07-16_092319_jkqhaa.png" style="width: 800px;"/>
 
 ## Back-end Dependencies:
 - Sequelize
